@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+  @apply container mx-auto px-6;
+}
+.button {
+  @apply py-2 px-5 font-semibold rounded-xl transition duration-300 hover:bg-opacity-80 hover:shadow-lg;
+}
+
+.button-sm {
+  @apply py-1 px-5 font-semibold rounded-xl transition duration-300 hover:bg-opacity-80 hover:shadow-lg;
+}
+
+/* reservation form */
+.input-group {
+  @apply grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4;
+}
+
+.control-group {
+  @apply flex flex-col mb-4;
+}
+
+.control-group label {
+  @apply mb-2;
+}
+
+.control-group input,
+.control-group textarea,
+.control-group select {
+  @apply border-2 border-stone-200 rounded-lg py-1 px-3;
+}
+
+/* Cart */
+.meals-item-cart input,
+.meals-item-cart textarea,
+.meals-item-cart select {
+  @apply border-b-2 border-stone-400 py-1 px-3;
+}
+
+/* order-activity */
+/* .activity-table tr {
+    @apply grid grid-cols-2 md:grid-cols-5;
+  }
+  
+  .activity-table th {
+    @apply font-semibold px-4;
+  }
+  
+  .activity-table td {
+    @apply px-4;
+  } */
+
+.activity-table h5 {
+  @apply font-semibold mt-1;
+}
+
+.custom-container {
+  padding: 4rem 2rem;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "uber-web3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "@mapbox/mapbox-sdk": "^0.15.1",
+    "@mapbox/search-js-react": "^1.0.0-beta.12",
+    "@react-google-maps/api": "^2.18.1",
+    "@sanity/client": "^3.3.2",
+    "@seanhouli/react-mapbox-search": "^1.0.5",
+    "@turf/turf": "^6.5.0",
+    "eslint-plugin-react-hooks": "^4.7.0-next-49f8254d6-20220722",
+    "ethers": "^5.6.9",
+    "mapbox-gl": "^2.9.2",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-toastify": "^9.1.2",
+    "tailwind-scrollbar-hide": "^1.1.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}
